@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #161317 !important;
+}
+
+#logo {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+#about-navbar {
+  margin-top: 14px;
+  margin-left: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+#about-navbar:hover {
+  background-color: #161317;
+}
+
+#about-navbar:active {
+  background-color: #161317;
+}
+
+#btn-navbar {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#logo-footer {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  color: '#ffffff';
+}
