@@ -40,11 +40,11 @@ class Accordion extends React.Component {
             <p className="is-size-3 card-header-title" style={{ color: '#ffffff' }}>
               {title}
             </p>
-            <a className="card-header-icon">
+            <p className="card-header-icon">
               <span className="icon">
                 <i className="fas fa-angle-up" style={{ color: color,  fontSize: '1.8rem'}}></i>
               </span>
-            </a>
+            </p>
           </header>
           <div className="card-content" style={{ maxHeight: this.state.height }} ref={(content) => this.content = content }>
             <div className="content" style={{ color: '#ffffff' }}>
