@@ -36,3 +36,10 @@
   font-weight: 700;
   color: '#ffffff';
 }
+
+#credits {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 0.6rem;
+}

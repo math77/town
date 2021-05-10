@@ -39,10 +39,10 @@ class AboutUs extends React.Component {
             <div style={{ display: 'flex' }}>
               <div>
                 <p>
-                  We are a world-based urban company that believes that every city can offer something to everyone, as long as it is created and 
-                  constantly improved by everyone. In our most intimate vision each city should deeply reflect the community that lives, studies, relates, 
-                  buys and sells, suffers, grows, has fun, helps others, inhabits and makes it what it is, because what makes a city is not the 
-                  buildings, cars, parks or streets, but its citizens.
+                 We are a globally based urban company that believes that every city can offer everything to everyone, as long as it is created and 
+                 constantly improved by everyone. In our innermost vision, each city should deeply reflect the community that lives, studies, relates, 
+                 buys and sells, suffers, grows, enjoys, helps others, inhabits, and makes it what it is, because what makes a city is not the buildings, 
+                 the cars, the parks or the streets, but its citizens.
                 </p>
               </div>
               <div id="content2">
@@ -127,7 +127,6 @@ class AboutUs extends React.Component {
         <footer className="footer" style={{ backgroundColor: '#000000', padding: '20px' }}>
           <div className="content has-text-centered">
             <h5 id="logo-footer" style={{ color: '#ffffff' }}>TOWN COMPANY</h5>
-            Illustration by <a href="https://icons8.com/illustrations/author/5c07e68d82bcbc0092519bb6">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
           </div>
         </footer>
       </div>

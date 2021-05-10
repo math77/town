@@ -44,6 +44,22 @@ article p {
   margin-top: 8px;
 }
 
+#banner-building h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+
+#banner-future h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+
+#content-who {
+  margin-left: 40px;
+}
+
 #explain-1 {
   margin-top: 40px;
 }
@@ -56,12 +72,8 @@ article p {
   background-color: #161317;
 }
 
-#box0 {
-  background-color: #fafafa;
-}
-
 #box1 {
-  background-color: #34495e;
+  background-color: #3498db;
   margin-bottom: 15px !important;
 }
 
@@ -76,7 +88,7 @@ article p {
 }
 
 #box4 {
-  background-color: #3498db;
+  background-color: #ecf0f1;
   margin-top: 30px !important;
 }
 
