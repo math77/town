@@ -123,6 +123,26 @@ class AboutUs extends React.Component {
               <li>Mutual Support</li>
             </ul>
           </Accordion>
+          <Accordion title="Do you have any partnership programs with non-profit organizations?" color="#ff4365">
+            <p>
+              Yes, Yes, Yes!
+            </p>
+            <p>
+              We believe that non-profit organizations are essential in building a better city that offers 
+              everything for everyone. So, if you lead or represent a non-profit organization 
+              in any of the areas listed below, please send us an email at the address below 
+              with the title: PARTNERSHIP WITH A NON-PROFIT ORGANIZATION.
+            </p>
+            <ul>
+              <li>Civic engagement</li>
+              <li>Teaching digital skills (coding, use of basic tools, internet use, and more)</li>
+              <li>Teaching digital rights (personal privacy, security in the digital world, and more)</li>
+              <li>Teaching sustainable practices in everyday life</li>
+            </ul>
+            <p>Email address: <span style={{ color: '#ff4365' }}>talktowncompany@gmail.com</span></p>
+            <p></p>
+            <p>Note: We will soon open for other types of non-profit organizations.</p>
+          </Accordion>
         </section>
         <footer className="footer" style={{ backgroundColor: '#000000', padding: '20px' }}>
           <div className="content has-text-centered">

@@ -37,7 +37,7 @@ function App() {
           <h1 className="Big-text">City</h1>
         </div>
         <div className="has-text-centered" id="explain-1">
-          <p className="is-size-5">It is the time to make cities what we want them to be.</p>
+          <p className="is-size-5">Citizen-led collaborative cities.</p>
         </div>
       </section>
       <section className="section is-small" id="back-video">
@@ -66,9 +66,8 @@ function App() {
           <div style={{ display: 'flex' }}>
             <div>
               <p style={{ fontSize: '1.6rem', textAlign: 'justify' }}>
-                We are a world-based company that believes that every city can offer 
-                everything to everyone, as long as created and constantly 
-                improved by everyone.
+                We are a globally based company that believes that every city can offer everything 
+                to everyone, as long as it is created and constantly improved by everyone.
               </p>
             </div>
             <div id="content-who">
