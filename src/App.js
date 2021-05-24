@@ -157,7 +157,7 @@ function App() {
         <div className="content">
           <div style={{ width: '89%' }}>
             <p className="tile-text is-size-5" style={{ color: '#ffffff', textAlign: 'justify', marginBottom: '33px' }}>
-              We are bringing together a diverse community of people who believe there is great work to be done in our cities so that they can offer something for everyone. 
+              We are bringing together a diverse community of people who believe there is great work to be done in our cities so that they can offer everything for everyone. 
               We hope that everyone will bring to the table their visions, opinions, ideas, challenges and opportunities that they see in their city and collaborate deeply 
               with us to build products and to better understand how we can help everyone.
             </p>
