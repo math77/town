@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
+import '@fortawesome/fontawesome-free/js/all.js';
 
 import Accordion from './components/Accordion.js';
 
@@ -17,7 +18,7 @@ class AboutUs extends React.Component {
         <nav className="navbar" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" id="logo">
-              TOWN COMPANY
+              TOWN CO-COMPANY
             </Link>
           </div>
           <div className="navbar-start">
@@ -146,7 +147,10 @@ class AboutUs extends React.Component {
         </section>
         <footer className="footer" style={{ backgroundColor: '#000000', padding: '20px' }}>
           <div className="content has-text-centered">
-            <h5 id="logo-footer" style={{ color: '#ffffff' }}>TOWN COMPANY</h5>
+            <h5 id="logo-footer" style={{ color: '#ffffff' }}>TOWN CO-COMPANY</h5>
+            <a href="https://twitter.com/towncocompany" target="_blank" rel="noreferrer">
+              <i className="fab fa-twitter" style={{ color: '#ffffff', fontSize: '1.5rem' }}></i>
+            </a>
           </div>
         </footer>
       </div>

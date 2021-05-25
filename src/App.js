@@ -2,6 +2,8 @@ import ReactPlayer from 'react-player';
 
 import { Link } from 'react-router-dom';
 
+import '@fortawesome/fontawesome-free/js/all.js';
+
 import video from './images/towncvideo.mp4';
 
 
@@ -14,7 +16,7 @@ function App() {
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <Link to="/" className="navbar-item" id="logo">
-            TOWN COMPANY
+            TOWN C0-COMPANY
           </Link>
         </div>
         <div className="navbar-start">
@@ -33,7 +35,7 @@ function App() {
       <section className="section is-small" id="banner-welcome">
         <div className="has-text-centered">
           <h1 className="Big-text">Build</h1>
-          <h1 className="Big-text">You</h1>
+          <h1 className="Big-text">Your</h1>
           <h1 className="Big-text">City</h1>
         </div>
         <div className="has-text-centered" id="explain-1">
@@ -173,7 +175,10 @@ function App() {
       </section>
       <footer className="footer" style={{ backgroundColor: '#000000', padding: '20px' }}>
         <div className="content has-text-centered">
-          <h5 id="logo-footer" style={{ color: '#ffffff' }}>TOWN COMPANY</h5>
+          <h5 id="logo-footer" style={{ color: '#ffffff' }}>TOWN CO-COMPANY</h5>
+          <a href="https://twitter.com/towncocompany" target="_blank" rel="noreferrer">
+            <i className="fab fa-twitter" style={{ color: '#ffffff', fontSize: '1.5rem' }}></i>
+          </a>
         </div>
       </footer>
     </div>
