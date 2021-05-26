@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import '@fortawesome/fontawesome-free/js/all.js';
 
-import video from './images/towncvideo.mp4';
+import video from './images/townheadervideo.mp4';
 
 
 import './App.css';
