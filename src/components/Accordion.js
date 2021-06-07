@@ -37,7 +37,7 @@ class Accordion extends React.Component {
           className={ "card " + (expanded ? "expanded" : "not-expanded") + " is-shadowless" }
         >
           <header className="card-header is-shadowless" onClick={this.toggleCardState}>
-            <p className="is-size-3 card-header-title" style={{ color: '#ffffff' }}>
+            <p className="is-size-3 card-header-title" style={{ color: '#000000' }}>
               {title}
             </p>
             <p className="card-header-icon">
@@ -47,7 +47,7 @@ class Accordion extends React.Component {
             </p>
           </header>
           <div className="card-content" style={{ maxHeight: this.state.height }} ref={(content) => this.content = content }>
-            <div className="content" style={{ color: '#ffffff' }}>
+            <div className="content" style={{ color: '#000000' }}>
               {children}
             </div>
           </div>

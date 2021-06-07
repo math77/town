@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap');
 
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 p {
   font-weight: 500;
@@ -12,23 +16,58 @@ article p {
   font-family: 'Montserrat', sans-serif;
 }
 
+.button {
+  font-weight: 600;
+}
 
-.Big-text {
+.banners {
+  font-weight: 700;
   color: #ffffff;
-  font-size: 8rem;
   line-height: 1;
-  font-weight: 800;
-  font-family: 'Montserrat', sans-serif;
 }
 
-
-.tile-text {
-  font-weight: 500;
-  font-size: 1.2rem;
+.session-title {
+  font-weight: 700;
+  color: #000000;
 }
+
+.box h4 {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.box p {
+  color: #ffffff;
+  margin-top: 12px;
+  font-weight: 700;
+}
+
+.explain-1 {
+  margin-top: 20px;
+}
+
+.explain-1 p {
+  color: #ffffff;
+}
+
 
 #banner-welcome {
-  background-color: #161317;
+  background-image: url("./images/home-welcomebackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#banner-call-to-community {
+  background-image: url("./images/home-welcomebackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#whowebuild-list li {
+  color: #4a4a4a;
+  margin-top: 10px;
 }
 
 #banner-us h2 {
@@ -44,60 +83,40 @@ article p {
   margin-top: 8px;
 }
 
-#banner-building h2{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+#box-community {
+  background-image: url("./images/wall-v4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+#box-money {
+  background-image: url("./images/pigedge.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+#box-wall {
+  background-image: url("./images/wall-v10.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+}
+
+#box-wall h4{
   color: #000000;
 }
 
-#banner-future h2{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  color: #000000;
+#box-wall p {
+  color: #4a4a4a;
 }
 
-#content-who {
-  margin-left: 40px;
-}
 
-#explain-1 {
-  margin-top: 40px;
-}
+@media only screen and (min-device-width: 310px) and (max-device-width: 1220px) {
+  #box-money, #box-community, #box-wall {
+    height: 710px;
+  }
 
-#explain-1 p {
-  color: #ffffff;
-}
-
-#back-video {
-  background-color: #161317;
-}
-
-#box1 {
-  background-color: #3498db;
-  margin-bottom: 15px !important;
-}
-
-#box2 {
-  background-color: #2ecc71;
-  margin-top: 30px !important;
-}
-
-#box3 {
-  background-color: #ff4365;
-  margin-bottom: 15px !important;
-}
-
-#box4 {
-  background-color: #ecf0f1;
-  margin-top: 30px !important;
-}
-
-#jacobs-quote h4{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  color: #000000; 
-}
-
-#jacobs-quote p {
-  margin-top: 23px;
 }

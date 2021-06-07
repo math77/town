@@ -1,0 +1,42 @@
+#banner-welcome-community {
+  background-image: url("../../images/backcommunity.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#banner-join-community {
+  background-image: url("../../images/calltocommunity.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.dark h4 {
+  font-weight: 700;
+  color: #000000;
+}
+
+.dark p {
+  color: #4a4a4a;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+.comm {
+  height: 500px;
+}
+
+@media only screen and (min-device-width: 310px) and (max-device-width: 360px) {
+  .comm {
+    height: 600px;
+  }
+
+}
+
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1210px) {
+  .comm {
+    height: 700px;
+  }
+}

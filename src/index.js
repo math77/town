@@ -2,7 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import AboutUs from './AboutUs';
+import AboutUs from './pages/About/AboutUs';
+import Community from './pages/Community/Community';
+import Wall from './pages/Wall/Wall';
+import Funding from './pages/Funding/Funding';
+import FAQ from './pages/FAQ/FAQ';
+
 import reportWebVitals from './reportWebVitals';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
@@ -16,6 +21,10 @@ ReactDOM.render(
         <Switch>
             <Route path="/" exact={true} component={App} />
             <Route path="/about" component={AboutUs} />
+            <Route path="/community" component={Community} />
+            <Route path="/dreams" component={Wall} />
+            <Route path="/funding" component={Funding} />
+            <Route path="/faq" component={FAQ} />
         </Switch>
     </BrowserRouter>,
   document.getElementById('root')
