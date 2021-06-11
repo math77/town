@@ -1,4 +1,6 @@
 import React from 'react';
+import ShoutoutEmbed from 'shoutout-react';
+
 
 import '@fortawesome/fontawesome-free/js/all.js';
 
@@ -30,7 +32,8 @@ class Wall extends React.Component {
           </div>
         </section>
 
-        <section className="section is-medium">
+        <section className="section is-small">
+          {/*
           <div className="container">
             <h2 className="is-size-1 session-title has-text-centered">
               Oops, it seems that no one has shared their vision for cities with us yet. Be the first!
@@ -39,6 +42,10 @@ class Wall extends React.Component {
               Go to twitter, write what you want your city to become and tag us <span style={{ fontWeight: '700' }}>@towncocompany</span>
             </p>
           </div>
+          */}
+          <ShoutoutEmbed
+            url="towncocompany"
+          />
         </section>
         
         <Footer />
