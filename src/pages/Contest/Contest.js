@@ -88,7 +88,7 @@ class Contest extends React.Component {
 
                   <h4 className="is-size-3" style={{ marginTop: '15px' }}>Step 3.</h4>
                   <p className="is-size-6" style={{ 'textAlign': 'justify', 'wordBreak': 'break-all' }}>
-                    Wait until submissions open on June 29, 2021 and submit your photo + sentence. 
+                    Wait until submissions open on June 30, 2021 and submit your photo + sentence. 
                   </p>
                 </div>
               </div>
