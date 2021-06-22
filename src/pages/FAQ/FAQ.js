@@ -84,16 +84,6 @@ class FAQ extends React.Component {
               More about this soon...
             </p>
           </Accordion>
-          <Accordion title="What are our main values?" color="#2ecc71">
-            <ul>
-              <li>Joint design, always!</li>
-              <li>Trust among stakeholders</li>
-              <li>Transparency</li>
-              <li>Local strength first</li>
-              <li>Never zero-sum games</li>
-              <li>Mutual Support</li>
-            </ul>
-          </Accordion>
           <Accordion title="Do you have any partnership programs with non-profit organizations?" color="#ff4365">
             <p>
               Yes, Yes, Yes!

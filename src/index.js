@@ -7,6 +7,8 @@ import Community from './pages/Community/Community';
 import Wall from './pages/Wall/Wall';
 import Funding from './pages/Funding/Funding';
 import FAQ from './pages/FAQ/FAQ';
+import Contest from './pages/Contest/Contest';
+import NotFound from './pages/NotFound/NotFound';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -25,6 +27,8 @@ ReactDOM.render(
             <Route path="/dreams" component={Wall} />
             <Route path="/funding" component={Funding} />
             <Route path="/faq" component={FAQ} />
+            <Route path="/contest" component={Contest} />
+            <Route component={NotFound} />
         </Switch>
     </BrowserRouter>,
   document.getElementById('root')

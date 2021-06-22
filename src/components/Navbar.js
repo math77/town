@@ -35,8 +35,7 @@ function Navbar() {
         <div className="navbar-start" id="navbar-items">
           <Link className="navbar-item" to="/about">We</Link>
           <Link className="navbar-item" to="/community">Community</Link>
-          <Link className="navbar-item" to="/funding">Alternative Funding</Link>
-          <Link className="navbar-item" to="/dreams">Sweet Dreams</Link>
+          <Link className="navbar-item" to="/contest">Contests</Link>
           <Link className="navbar-item" to="/faq">FAQ</Link>
         </div>
         

@@ -1,5 +1,8 @@
 import React from 'react';
 
+import ScrollAnimation from 'react-animate-on-scroll';
+
+
 import '@fortawesome/fontawesome-free/js/all.js';
 
 import Navbar from '../../components/Navbar.js';
@@ -111,7 +114,10 @@ class Community extends React.Component {
         </section>
 
         <section className="section is-small">
+          <ScrollAnimation animateIn="fadeInUpBig">
           <div className="container">
+            
+
             <h2 className="is-size-1 has-text-centered session-title">People, people, people...</h2>
             
             <div className="column is-three-fifths is-offset-one-fifth">
@@ -126,7 +132,9 @@ class Community extends React.Component {
             <figure className="image is-16by9" style={{ marginTop: '20px' }}>
               <img src={session4} alt="Who we are" />
             </figure>
+
           </div>
+          </ScrollAnimation>
         </section>
 
         <section className="section is-small" style={{ backgroundColor: '#f8f8ff'}}>
