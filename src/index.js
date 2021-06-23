@@ -27,7 +27,6 @@ ReactDOM.render(
             <Route path="/dreams" component={Wall} />
             <Route path="/funding" component={Funding} />
             <Route path="/faq" component={FAQ} />
-            <Route path="/contest" component={Contest} />
             <Route component={NotFound} />
         </Switch>
     </BrowserRouter>,
