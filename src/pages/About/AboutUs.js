@@ -1,16 +1,11 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
-
-
 import '@fortawesome/fontawesome-free/js/all.js';
 
 import Navbar from '../../components/Navbar.js';
 import Footer from '../../components/Footer.js';
 
-import aboutus1 from '../../images/aboutus-session4.png';
-import aboutus2 from '../../images/aboutus-session2.png';
-import aboutuswe from '../../images/aboutus-session-we4.png';
+import we from '../../images/wesession2t1.png';
 
 import './Aboutus.css';
 
@@ -21,100 +16,106 @@ class AboutUs extends React.Component {
       <div>
         <Navbar />
 
-        <section className="section is-medium" id="banner-welcome-about">
+        {/*
+        <section className="section is-large background-brand" id="banner-welcome-about">
+        <div className="container">
+          <h1 className="is-size-1 has-text-centered banners">
+            About us
+          </h1>
+          <div className="explain-1">
+            <p className="is-size-5 has-text-centered">
+              Building the cities of the future, today. 
+            </p>
+          </div>
+        </div>
+      </section>
+      */}
+        
+        <section className="section is-medium background-brand" id="banner-welcome-about">
           <div className="columns">
             <div className="column is-three-fifths">
               <h1 className="is-size-1 banners">
-                Tools, people in community, collaborative work, and cities that offer everything to everyone.
+                About us
               </h1>
               <div className="explain-1">
                 <p className="is-size-5">
-                  Building the tools, bringing talented people together, 
-                  and seeing cities that offer everything to everyone emerge.
+                  Building the cities of the future, today.
                 </p>
               </div>
               <div style={{ marginTop: '35px' }}>
-                <Link className="button is-white is-outlined is-rounded" to="/community">
-                  I want to be part of the community
-                </Link>
+                <a className="button is-black is-rounded" href="https://twitter.com/towncocompany/status/1412244265028272128" target="_blank" rel="noreferrer">
+                  Share your vision of the future with us.
+                </a>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="section is-small">
-          <div className="container">
-            <div className="columns">
-              <div className="column">
-                <h2 className="is-size-1 session-title">
-                  6.5 billion people living in cities by 2050.
-                </h2>
-                <p className="is-size-5 has-text-justified" style={{ marginTop: '10px' }}>
-                  The UN estimates that by 2050 the world population will be approximately 10 billion people 
-                  with 6.5 billion of these people living in urban areas. All of this growing population will 
-                  need access to the basic resources, services, and infrastructure that a city must provide for 
-                  everyone such as health, education, food, housing, energy, transportation, and more. To provide 
-                  these basic requirements for all people, our current cities need a rethink.
-                </p>
-              </div>
-              <div className="column">
-                <figure className="image is-1by1">
-                  <img src={aboutus1} alt="Kkka" />
-                </figure>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="section is-small">
-          <div className="container">
-            <div className="columns">
-              <div className="column">
-                <figure className="image is-4by5">
-                  <img src={aboutus2} alt="Kkka" />
-                </figure>
-              </div>
-              <div className="column">
-                <h2 className="is-size-1 session-title">
-                  Today's cities are made for cars and for the few.
-                </h2>
-                <p className="is-size-5 has-text-justified" style={{ marginTop: '10px' }}>
-                  Our current cities are decaying, boring, polluted and violent, made for cars, 
-                  parking lots and gigantic expensive skyscrapers they offer too much for the few 
-                  and too little for the many. We have left the most valuable "asset" of cities aside, 
-                  the people, and now we must work to redefine and rebuild how urban life should be. 
-                  We believe that a rethinking of urban life so that our cities offer everything to everyone 
-                  is possible, necessary, and what we will do.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="section is-small">
+        <section className="section is-medium background-brand">
           <div className="container">
             <h2 className="is-size-1 has-text-centered session-title">We</h2>
-
-            <div className="column is-three-fifths is-offset-one-fifth">
-              <p className="is-size-5 has-text-centered">
-               We are building the tools, bringing together amazing and talented people, 
-               putting them to work together, and giving them the freedom to are to lead 
-               and create the way to build cities that offer everything for everyone.
-              </p>
-            </div>
-
-            <figure className="image is-16by9">
-              <img src={aboutuswe} alt="Who it works diagram" />
-            </figure>
-
-            <h2 className="is-size-2 has-text-centered session-title">People, Tools, Better Cities.</h2>
-
-            <div className="has-text-centered" style={{ marginTop: '20px' }}>
-              <Link className="button is-black is-outlined is-rounded" to="/community">
-                More about our community
-              </Link>
-            </div>
             
+            <div className="column is-three-fifths is-offset-one-fifth">
+              <p className="is-size-5 has-text-justified">
+                We are a company, a community, a big family that loves cities and urban life. 
+                There's something in our heads that we can't get out of our heads, that our cities 
+                need a new direction, that they can offer more than they do today. For us, the cities 
+                of the future, which are full of opportunities, technologies, innovations, are sustainable, 
+                fair, and inclusive for everyone, can be leveraged and built quickly if we follow a simple 
+                formula, the formula of the cities of the future.
+              </p>
+              <figure className="image is-2by1 mt-3">
+                <img src={we} alt="You is the best" />
+              </figure>
+
+              <p className="is-size-5 has-text-justified">
+                We created the formula for the cities of the future to demonstrate that with the right people, 
+                equipped with the best tools, and the freedom to think, discuss, and create, we will all enter 
+                an era of significant advances and, what was predicted for the next 50 years we will achieve in 
+                this decade.
+              </p>
+
+              <p className="is-size-5 has-text-justified mt-3">
+                We strongly believe in the power that a well-aligned community has. That people enjoy connecting 
+                and sharing since the beginning of human life. We believe in the natural strength of people. 
+                For us, all these people need is a shared vision, someone who trusts them, and someone who collaborates 
+                with them. We are this someone.
+              </p>
+
+              <p className="is-size-5 has-text-justified mt-3">
+                We want, together with you, to be more innovative, creative, and daring. We want to go beyond what 
+                has already been accomplished, beyond what most people think is possible. There are no maps, plans, 
+                or tips to get to a new place, so all we have, is our persistence, vision, and the strength of our communities. 
+                We build the best cities with collective strength, with the decentralization of power and tools. We will show 
+                this to everyone. 
+              </p>
+
+              <p className="is-size-5 has-text-justified mt-5" style={{ fontWeight: '600' }}>
+                The cities of the future must above all be cities for people. 
+              </p>
+
+              <p className="is-size-5 has-text-justified mt-3" style={{ fontWeight: '600' }}>
+                The cities of the future must be sustainable, fair, technological, and with opportunities for all. They must be happy.  
+              </p>
+              <hr style={{ width: '100%', backgroundColor: '#000000' }}/>
+              <p className="is-size-5 has-text-justified mt-3" style={{ fontWeight: '700' }}>
+                We hope you will collaborate with us so that together we can reimagine our cities, build a bright future as soon as possible, 
+                and have a lot of fun along the way.  
+              </p>
+
+              <p className="is-size-5 has-text-justified mt-3" style={{ fontWeight: '700' }}>
+                We hope that this little message of ours has made you think and look at your city differently.
+              </p>
+
+              <p className="is-size-5 has-text-justified mt-3" style={{ fontWeight: '700' }}>
+                We hope this message is enough for you to get excited and collaborate with us so that together we can build the cities of the future. 
+              </p>
+
+              <p className="is-size-5 has-text-justified mt-6">
+                To infinity and beyond. — Toy Story, in a message to you.
+              </p>
+
+            </div>
           </div>
         </section>
         

@@ -1,16 +1,33 @@
 #banner-welcome-community {
-  background-image: url("../../images/backcommunity.png");
+  background-image: url("../../images/communitysession1t2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-#banner-join-community {
-  background-image: url("../../images/calltocommunity.jpg");
+/*
+#banner-why-community {
+  background-image: url("../../images/communitysession2t2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
+*/
+
+#banner-first-community {
+  background-image: url("../../images/communitysession6t1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#session-quote {
+  background-image: url("../../images/communitysession5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 
 .dark h4 {
   font-weight: 700;

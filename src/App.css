@@ -16,13 +16,17 @@ article p {
   font-family: 'Montserrat', sans-serif;
 }
 
+.big-title {
+  font-size: 6rem;
+}
+
 .button {
   font-weight: 600;
 }
 
 .banners {
   font-weight: 700;
-  color: #ffffff;
+  color: #000;
   line-height: 1;
 }
 
@@ -33,81 +37,44 @@ article p {
 
 .box h4 {
   font-weight: 700;
-  color: #ffffff;
+  color: #000000;
 }
 
 .box p {
-  color: #ffffff;
+  color: #4a4a4a;
   margin-top: 12px;
-  font-weight: 700;
 }
 
 .explain-1 {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .explain-1 p {
-  color: #ffffff;
+  color: #000000;
 }
 
+.background-brand {
+  background-color: #fcfbee;
+}
 
+/*
 #banner-welcome, #banner-call-to-community {
-  background: linear-gradient(246deg ,#FCAB01, #FE214F);
+  background: linear-gradient(0deg ,#C7DAE1, #FAFBFF);
 }
+*/
 
-
-#whowebuild-list li {
-  color: #4a4a4a;
-  margin-top: 10px;
-}
-
-#banner-us h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  color: #000000;
-}
-
-#banner-us p {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  color: #000000;
-  margin-top: 8px;
-}
-
-#box-community {
-  background-image: url("./images/wall-v4.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-}
-
-#box-money {
-  background-image: url("./images/pigedge.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-}
-
-#box-wall {
-  background-image: url("./images/wall-v10.png");
+#session-first-community {
+  background-image: url("./images/communitysession6t2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 500px;
 }
 
-#box-wall h4{
-  color: #000000;
+/*
+#session-explain-community {
+  background-image: url("./images/homesession7t5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
-
-#box-wall p {
-  color: #4a4a4a;
-}
-
-
-@media only screen and (min-device-width: 310px) and (max-device-width: 1220px) {
-  #box-money, #box-community, #box-wall {
-    height: 710px;
-  }
-
-}
+*/

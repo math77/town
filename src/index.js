@@ -4,9 +4,6 @@ import './index.css';
 import App from './App';
 import AboutUs from './pages/About/AboutUs';
 import Community from './pages/Community/Community';
-import Wall from './pages/Wall/Wall';
-import Funding from './pages/Funding/Funding';
-import FAQ from './pages/FAQ/FAQ';
 import NotFound from './pages/NotFound/NotFound';
 
 import reportWebVitals from './reportWebVitals';
@@ -23,9 +20,6 @@ ReactDOM.render(
             <Route path="/" exact={true} component={App} />
             <Route path="/about" component={AboutUs} />
             <Route path="/community" component={Community} />
-            <Route path="/dreams" component={Wall} />
-            <Route path="/funding" component={Funding} />
-            <Route path="/faq" component={FAQ} />
             <Route component={NotFound} />
         </Switch>
     </BrowserRouter>,

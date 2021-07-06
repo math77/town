@@ -35,14 +35,13 @@ function Navbar() {
         <div className="navbar-start" id="navbar-items">
           <Link className="navbar-item" to="/about">We</Link>
           <Link className="navbar-item" to="/community">Community</Link>
-          <Link className="navbar-item" to="/faq">FAQ</Link>
         </div>
         
         <div className="navbar-end">
           <div className="navbar-item" id="btn-navbar">
             <div className="buttons">
-              <a className="button is-black is-rounded" href="https://form.typeform.com/to/v4G4wIXa" target="_blank" rel="noreferrer">
-                Join community
+              <a className="button is-black is-rounded" href="https://airtable.com/shrjufO7WU65KAcu2" target="_blank" rel="noreferrer">
+                Join the arts community
               </a>
             </div>
           </div>
