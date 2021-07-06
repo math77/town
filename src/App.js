@@ -190,7 +190,7 @@ function App() {
       <section className="section is-medium" style={{ backgroundColor: '#000' }}>
         <div className="container">
           <h1 className="big-title session-title" style={{ color: '#ffffff' }}>People + tools + freedom = future cities</h1>
-          <h4 className="is-size-4" style={{ color: '#ffffff', marginTop: '10px' }}> - The one equation that defines the cities of the future.</h4>
+          <h4 className="is-size-4" style={{ color: '#ffffff', marginTop: '10px' }}> - The one formula that defines the cities of the future.</h4>
         </div>
       </section>
 
