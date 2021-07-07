@@ -23,7 +23,7 @@ function App() {
       <section className="section is-medium background-brand" id="banner-welcome">
         <div className="container">
           <h1 className="big-title has-text-centered banners">
-            Building the cities of the future. - <span style={{ color: '#EEE318' }}>today</span>.
+            Building the cities of the future - <span style={{ color: '#EEE318' }}>today</span>.
           </h1>
           <div className="explain-1">
             <p className="is-size-5 has-text-centered">
