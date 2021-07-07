@@ -31,11 +31,9 @@ function App() {
             </p>
           </div>
           <div className="has-text-centered" style={{ marginTop: '65px' }}>
-            <button className="button is-dark is-rounded">
-              <span className="icon is-small">
-                <i className="fas fa-angle-down"></i>
-              </span>
-            </button>
+            <Link className="button is-black is-rounded is-outlined" to="/about">
+              Read our manifesto
+            </Link>
           </div>
         </div>
       </section>
@@ -180,7 +178,7 @@ function App() {
 
           <div className="has-text-centered" style={{ marginTop: '35px' }}>
             <Link className="button is-black is-rounded is-outlined" to="/about">
-              Read our manifest
+              Read our manifesto
             </Link>
           </div>
 
