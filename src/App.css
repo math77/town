@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap');
 
 * {
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  background-image: url("./images/background5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
 p {
   font-weight: 500;
@@ -26,7 +31,7 @@ article p {
 
 .banners {
   font-weight: 700;
-  color: #000;
+  color: #FFF;
   line-height: 1;
 }
 
@@ -34,47 +39,3 @@ article p {
   font-weight: 700;
   color: #000000;
 }
-
-.box h4 {
-  font-weight: 700;
-  color: #000000;
-}
-
-.box p {
-  color: #4a4a4a;
-  margin-top: 12px;
-}
-
-.explain-1 {
-  margin-top: 30px;
-}
-
-.explain-1 p {
-  color: #000000;
-}
-
-.background-brand {
-  background-color: #fcfbee;
-}
-
-/*
-#banner-welcome, #banner-call-to-community {
-  background: linear-gradient(0deg ,#C7DAE1, #FAFBFF);
-}
-*/
-
-#session-first-community {
-  background-image: url("./images/communitysession6t2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-/*
-#session-explain-community {
-  background-image: url("./images/homesession7t5.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-*/

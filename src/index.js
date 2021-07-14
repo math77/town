@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import AboutUs from './pages/About/AboutUs';
-import Community from './pages/Community/Community';
 import NotFound from './pages/NotFound/NotFound';
 
 import reportWebVitals from './reportWebVitals';
@@ -19,7 +18,6 @@ ReactDOM.render(
         <Switch>
             <Route path="/" exact={true} component={App} />
             <Route path="/about" component={AboutUs} />
-            <Route path="/community" component={Community} />
             <Route component={NotFound} />
         </Switch>
     </BrowserRouter>,

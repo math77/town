@@ -3,11 +3,3 @@ li {
   font-weight: 500;
   color: #ffffff;
 }
-
-
-#banner-welcome-about {
-  background-image: url("../../images/wesession1t1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}

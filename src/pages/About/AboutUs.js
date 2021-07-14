@@ -1,11 +1,7 @@
 import React from 'react';
 
-import '@fortawesome/fontawesome-free/js/all.js';
-
 import Navbar from '../../components/Navbar.js';
 import Footer from '../../components/Footer.js';
-
-import we from '../../images/wesession2t1.png';
 
 import './Aboutus.css';
 
@@ -16,42 +12,7 @@ class AboutUs extends React.Component {
       <div>
         <Navbar />
 
-        {/*
-        <section className="section is-large background-brand" id="banner-welcome-about">
-        <div className="container">
-          <h1 className="is-size-1 has-text-centered banners">
-            About us
-          </h1>
-          <div className="explain-1">
-            <p className="is-size-5 has-text-centered">
-              Building the cities of the future, today. 
-            </p>
-          </div>
-        </div>
-      </section>
-      */}
-        
-        <section className="section is-medium background-brand" id="banner-welcome-about">
-          <div className="columns">
-            <div className="column is-three-fifths">
-              <h1 className="is-size-1 banners">
-                About us
-              </h1>
-              <div className="explain-1">
-                <p className="is-size-5">
-                  Building the cities of the future, today.
-                </p>
-              </div>
-              <div style={{ marginTop: '35px' }}>
-                <a className="button is-black is-rounded" href="https://twitter.com/towncocompany/status/1412244265028272128" target="_blank" rel="noreferrer">
-                  Share your vision of the future with us.
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="section is-medium background-brand">
+        <section className="section is-medium">
           <div className="container">
             <h2 className="is-size-1 has-text-centered session-title">We</h2>
             
@@ -64,11 +25,10 @@ class AboutUs extends React.Component {
                 fair, and inclusive for everyone, can be leveraged and built quickly if we follow a simple 
                 formula, the formula of the cities of the future.
               </p>
-              <figure className="image is-2by1 mt-3">
-                <img src={we} alt="You is the best" />
-              </figure>
+              
+              <h3 className="is-size-4 has-text-centered mt-5" style={{ fontWeight: '700' }}>People + tools + freedom = future cities</h3>
 
-              <p className="is-size-5 has-text-justified">
+              <p className="is-size-5 has-text-justified mt-5">
                 We created the formula for the cities of the future to demonstrate that with the right people, 
                 equipped with the best tools, and the freedom to think, discuss, and create, we will all enter 
                 an era of significant advances and, what was predicted for the next 50 years we will achieve in 
